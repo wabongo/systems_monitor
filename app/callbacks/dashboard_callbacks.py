@@ -1,7 +1,11 @@
 # app/callbacks/dashboard_callbacks.py
+from datetime import datetime
+from venv import logger
 from dash import Input, Output, State, html, dcc, callback
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
+
+from collector import get_network_speeds
 from ..data.data_handler import DataHandler
 from ..utils.alerts import AlertSystem
 import pandas as pd
@@ -77,49 +81,44 @@ def update_system_metrics(computer_name, n):
 def update_network_metrics(computer_name, n):
   if not computer_name:
       return "N/A", "N/A", go.Figure()
-  
-  df = data_handler.read_data()
-  current = df[df['computer_name'] == computer_name].iloc[-1]
-  historical = data_handler.get_historical_data(
-      computer_name, 
-      ['network_bytes_sent', 'network_bytes_recv'], 
-      hours=24
-  )
-  
-  # Clean the speed values (remove 'Mbps' and convert to float)
-  historical['network_bytes_sent'] = historical['network_bytes_sent'].astype(float)
-  historical['network_bytes_recv'] = historical['network_bytes_recv'].astype(float)
-  
-  # Create network metrics graph
-  fig = go.Figure()
-  
-  # Add upload trace
-  fig.add_trace(go.Scatter(
-      x=historical['timestamp'],
-      y=historical['network_bytes_sent'],
-      name='Upload Speed',
-      line=dict(color='#2ECC71'),
-      fill='tozeroy'
-  ))
-  
-  # Add download trace
-  fig.add_trace(go.Scatter(
-      x=historical['timestamp'],
-      y=historical['network_bytes_recv'],
-      name='Download Speed',
-      line=dict(color='#3498DB'),
-      fill='tozeroy'
-  ))
-  
-  fig.update_layout(
-      title="Network Speed History",
-      xaxis_title="Time",
-      yaxis_title="Speed (Bytes)",
-      hovermode='x unified',
-      showlegend=True
-  )
-  
-  return current['network_bytes_sent'], current['network_bytes_recv'], fig
+
+  try:
+      # Get the latest network speeds
+      upload_speed, download_speed = get_network_speeds()
+
+      # Create a figure for the network metrics graph
+      fig = go.Figure()
+
+      # Add upload speed trace
+      fig.add_trace(go.Scatter(
+          x=[datetime.now()],  # Use current time for the latest data point
+          y=[upload_speed],
+          name='Upload Speed (Mbps)',
+          mode='lines+markers',
+          line=dict(color='#2ECC71')
+      ))
+
+      # Add download speed trace
+      fig.add_trace(go.Scatter(
+          x=[datetime.now()],  # Use current time for the latest data point
+          y=[download_speed],
+          name='Download Speed (Mbps)',
+          mode='lines+markers',
+          line=dict(color='#3498DB')
+      ))
+
+      fig.update_layout(
+          title="Current Network Speeds",
+          xaxis_title="Time",
+          yaxis_title="Speed (Mbps)",
+          hovermode='x unified'
+      )
+
+      return f"{upload_speed} Mbps", f"{download_speed} Mbps", fig
+
+  except Exception as e:
+      logger.exception("Error updating network metrics")
+      return "Error", "Error", go.Figure()  # Return an empty figure on error
 
 @callback(
   Output("services-status-container", "children"),

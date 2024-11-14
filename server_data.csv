@@ -1,9 +1,8 @@
-timestamp,computer_name,cpu_usage,memory_usage,disk_usage,network_bytes_sent,network_bytes_recv,local_ip,public_ip,smartcare_status,sql_server_status,smartlink_status,etims_status,tims_status
-2024-11-14T12:19:06.209819,EBLLEQA345C0T4,7.7,87.8,62.4,184465578,640090261,10.10.49.143,196.11.88.131,Stopped,Stopped,Stopped,Stopped,Stopped
-2024-11-14T12:19:18.643112,EBLLEQA345C0T4,13.2,87.8,62.4,184502400,640110249,10.10.49.143,196.11.88.131,Stopped,Stopped,Stopped,Stopped,Stopped
-2024-11-14T12:19:31.193714,EBLLEQA345C0T4,6.6,87.4,62.4,184570641,640146031,10.10.49.143,196.11.88.131,Stopped,Stopped,Stopped,Stopped,Stopped
-2024-11-14T12:19:43.602289,EBLLEQA345C0T4,8.6,88.9,62.4,184631402,640177992,10.10.49.143,196.11.88.131,Stopped,Stopped,Stopped,Stopped,Stopped
-2024-11-14T12:19:55.994681,EBLLEQA345C0T4,10.6,89.4,62.4,184715532,640237434,10.10.49.143,196.11.88.131,Stopped,Stopped,Stopped,Stopped,Stopped
-2024-11-14T12:20:08.475849,EBLLEQA345C0T4,9.5,88.8,62.4,184789234,640270305,10.10.49.143,196.11.88.131,Stopped,Stopped,Stopped,Stopped,Stopped
-2024-11-14T12:20:20.761237,EBLLEQA345C0T4,7.0,85.5,62.4,184829430,640292711,10.10.49.143,196.11.88.131,Stopped,Stopped,Stopped,Stopped,Stopped
-2024-11-14T12:20:33.419816,EBLLEQA345C0T4,11.3,86.5,62.4,184871220,640318119,10.10.49.143,196.11.88.131,Stopped,Stopped,Stopped,Stopped,Stopped
+timestamp,computer_name,cpu_usage,memory_usage,disk_usage,network_bytes_sent,network_bytes_recv,upload_speed_mbps,download_speed_mbps,local_ip,public_ip,smartcare_status,sql_server_status,smartlink_status,etims_status,tims_status
+2024-11-14T15:23:06.837762,EBLLEQA345C0T4,19.7,91.8,62.3,78493636,354864026,0,0,192.168.1.138,154.159.252.42,Stopped,Stopped,Stopped,Stopped,Stopped
+2024-11-14T15:23:19.711465,EBLLEQA345C0T4,12.4,93.5,62.3,78541536,354891753,0,0,192.168.1.138,154.159.252.42,Stopped,Stopped,Stopped,Stopped,Stopped
+2024-11-14T15:23:32.286939,EBLLEQA345C0T4,9.0,84.4,62.3,78665857,354931315,0,0,192.168.1.138,154.159.252.42,Stopped,Stopped,Stopped,Stopped,Stopped
+2024-11-14T15:23:46.254965,EBLLEQA345C0T4,44.3,89.1,62.3,79047778,361558499,0,4,192.168.1.138,154.159.252.42,Stopped,Stopped,Stopped,Stopped,Stopped
+2024-11-14T15:24:00.415791,EBLLEQA345C0T4,74.0,92.8,62.3,80873840,371793809,1,6,192.168.1.138,154.159.252.42,Stopped,Stopped,Stopped,Stopped,Stopped
+2024-11-14T15:24:13.499393,EBLLEQA345C0T4,13.4,92.1,62.4,81063636,376979092,0,3,192.168.1.138,154.159.252.42,Stopped,Stopped,Stopped,Stopped,Stopped
+2024-11-14T15:24:28.015391,EBLLEQA345C0T4,63.7,91.9,62.4,81213816,382779991,0,4,192.168.1.138,154.159.252.42,Stopped,Stopped,Stopped,Stopped,Stopped

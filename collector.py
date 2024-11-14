@@ -23,25 +23,62 @@ logger = logging.getLogger(__name__)
 
 # Applications to monitor
 APPLICATIONS = {
-    'smartcare': {'process_name': 'SmartCareProcessName', 'port': 8080},  # Replace with actual process name
+    'smartcare': {'process_name': 'SmartCareProcessName', 'port': 8080},
     'sql_server': {'process_name': 'sqlservr', 'port': 1433},
-    'smartlink': {'process_name': 'SmartLinkProcessName', 'port': 3307},  # Replace with actual process name
-    'etims': {'process_name': 'ETIMSProcessName', 'port': 8000},          # Replace with actual process name
-    'tims': {'process_name': 'TIMSProcessName', 'port': 8089},            # Replace with actual process name
+    'smartlink': {'process_name': 'SmartLinkProcessName', 'port': 3307},
+    'etims': {'process_name': 'ETIMSProcessName', 'port': 8000},
+    'tims': {'process_name': 'TIMSProcessName', 'port': 8089},
 }
+
+# Store previous network counters
+previous_net_io = None
+previous_time = None
+
+def bytes_to_mbps(bytes_count, seconds):
+  """Convert bytes over time to Mbps and round to whole number."""
+  if seconds > 0:  # Avoid division by zero
+      mbps = (bytes_count * 8) / (1000000 * seconds)
+      return round(mbps)  # Round to nearest whole number like Fast.com
+  return 0  # Return 0 if no time has passed  # Round to nearest whole number like Fast.com
+
+def format_speed(speed):
+    """Format speed to match Fast.com style."""
+    return f"{speed} Mbps"
+
+def get_network_speeds():
+  """Calculate current network speeds in Mbps."""
+  global previous_net_io, previous_time
+  current_net_io = psutil.net_io_counters()
+  current_time = time.time()
+
+  if previous_net_io is None or previous_time is None:
+      upload_speed = 0
+      download_speed = 0
+  else:
+      time_elapsed = current_time - previous_time
+      bytes_sent = current_net_io.bytes_sent - previous_net_io.bytes_sent
+      bytes_recv = current_net_io.bytes_recv - previous_net_io.bytes_recv
+
+      upload_speed = bytes_to_mbps(bytes_sent, time_elapsed)
+      download_speed = bytes_to_mbps(bytes_recv, time_elapsed)
+
+  previous_net_io = current_net_io
+  previous_time = current_time
+
+  logger.debug(f"Upload Speed: {upload_speed} Mbps, Download Speed: {download_speed} Mbps")
+  return upload_speed, download_speed
+
+
+
 
 def get_ip_addresses():
     """Get the computer's static and public IP addresses."""
     try:
-        # Get local IP address
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         s.connect(("8.8.8.8", 80))
         local_ip = s.getsockname()[0]
         s.close()
-
-        # Get public IP address
         public_ip = requests.get('https://api.ipify.org').text
-
         return local_ip, public_ip
     except Exception as e:
         logger.exception('Error getting IP addresses')
@@ -62,15 +99,16 @@ def collect_system_info():
         memory = psutil.virtual_memory()
         disk = psutil.disk_usage('/')
         
-        # Get network stats
+        # Get network stats and speeds
         net_io = psutil.net_io_counters()
+        upload_speed, download_speed = get_network_speeds()
         
         # Get process information
         processes = []
         for proc in psutil.process_iter(['pid', 'name', 'cpu_percent', 'memory_percent']):
             try:
                 pinfo = proc.info
-                if pinfo['cpu_percent'] > 0:  # Only include active processes
+                if pinfo['cpu_percent'] > 0:
                     processes.append({
                         'pid': pinfo['pid'],
                         'name': pinfo['name'],
@@ -80,10 +118,7 @@ def collect_system_info():
             except (psutil.NoSuchProcess, psutil.AccessDenied):
                 pass
 
-        # Get IP addresses
         local_ip, public_ip = get_ip_addresses()
-
-        # Check application status
         application_status = {app: check_application_status(APPLICATIONS[app]) for app in APPLICATIONS}
 
         system_info = {
@@ -110,7 +145,9 @@ def collect_system_info():
                 'bytes_sent': net_io.bytes_sent,
                 'bytes_recv': net_io.bytes_recv,
                 'packets_sent': net_io.packets_sent,
-                'packets_recv': net_io.packets_recv
+                'packets_recv': net_io.packets_recv,
+                'upload_speed_mbps': upload_speed,    # Now whole numbers like Fast.com
+                'download_speed_mbps': download_speed # Now whole numbers like Fast.com
             },
             'top_processes': sorted(processes, 
                                   key=lambda x: x['cpu_percent'], 
@@ -128,44 +165,52 @@ def collect_system_info():
         return None
 
 def write_to_csv(data):
-    """Write data to CSV file."""
-    try:
-        fieldnames = [
-            "timestamp", "computer_name", "cpu_usage", "memory_usage",
-            "disk_usage", "network_bytes_sent", "network_bytes_recv",
-            "local_ip", "public_ip", "smartcare_status", "sql_server_status",
-            "smartlink_status", "etims_status", "tims_status"
-        ]
-        
-        file_exists = Path(CSV_FILE_PATH).exists()
-        
-        with open(CSV_FILE_PATH, mode='a', newline='') as file:
-            writer = csv.DictWriter(file, fieldnames=fieldnames)
-            
-            if not file_exists:
-                writer.writeheader()
-            
-            writer.writerow({
-                "timestamp": data['timestamp'],
-                "computer_name": data['computer_name'],
-                "cpu_usage": data['cpu']['usage_percent'],
-                "memory_usage": data['memory']['percent'],
-                "disk_usage": data['disk']['percent'],
-                "network_bytes_sent": data['network']['bytes_sent'],
-                "network_bytes_recv": data['network']['bytes_recv'],
-                "local_ip": data['local_ip'],
-                "public_ip": data['public_ip'],
-                "smartcare_status": data['application_status'].get('smartcare', 'Unknown'),
-                "sql_server_status": data['application_status'].get('sql_server', 'Unknown'),
-                "smartlink_status": data['application_status'].get('smartlink', 'Unknown'),
-                "etims_status": data['application_status'].get('etims', 'Unknown'),
-                "tims_status": data['application_status'].get('tims', 'Unknown')
-            })
-            
-        logger.debug(f"Data written to CSV: {data['timestamp']}")
-        
-    except Exception as e:
-        logger.exception('Error writing to CSV')
+  """Write data to CSV file."""
+  try:
+      fieldnames = [
+          "timestamp", "computer_name", "cpu_usage", "memory_usage",
+          "disk_usage", "network_bytes_sent", "network_bytes_recv",
+          "upload_speed_mbps", "download_speed_mbps",
+          "local_ip", "public_ip", "smartcare_status", "sql_server_status",
+          "smartlink_status", "etims_status", "tims_status"
+      ]
+
+      file_exists = Path(CSV_FILE_PATH).exists()
+
+      with open(CSV_FILE_PATH, mode='a', newline='') as file:
+          writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+          if not file_exists:
+              writer.writeheader()
+
+          writer.writerow({
+              "timestamp": data['timestamp'],
+              "computer_name": data['computer_name'],
+              "cpu_usage": data['cpu']['usage_percent'],
+              "memory_usage": data['memory']['percent'],
+              "disk_usage": data['disk']['percent'],
+              "network_bytes_sent": data['network']['bytes_sent'],
+              "network_bytes_recv": data['network']['bytes_recv'],
+              "upload_speed_mbps": data['network']['upload_speed_mbps'],
+              "download_speed_mbps": data['network']['download_speed_mbps'],
+              "local_ip": data['local_ip'],
+              "public_ip": data['public_ip'],
+              "smartcare_status": data['application_status'].get('smartcare', 'Unknown'),
+              "sql_server_status": data['application_status'].get('sql_server', 'Unknown'),
+              "smartlink_status": data['application_status'].get('smartlink', 'Unknown'),
+              "etims_status": data['application_status'].get('etims', 'Unknown'),
+              "tims_status": data['application_status'].get('tims', 'Unknown')
+          })
+
+          logger.debug(f"Data written to CSV: {data['timestamp']}")
+          # Log network speeds in Fast.com style
+          logger.info(f"Download Speed: {format_speed(data['network']['download_speed_mbps'])}")
+          logger.info(f"Upload Speed: {format_speed(data['network']['upload_speed_mbps'])}")
+
+  except Exception as e:
+      logger.exception('Error writing to CSV')
+      
+      
 
 def main():
     logger.info("Starting system monitor...")
