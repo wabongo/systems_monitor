@@ -1,6 +1,7 @@
 # app/layouts/metrics_dashboard.py
 import dash_bootstrap_components as dbc
 from dash import html, dcc
+from app.components.cards import create_metric_card
 
 def create_system_metrics(computer_name):
     return dbc.Card([
