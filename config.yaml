@@ -1,0 +1,27 @@
+# config.yaml
+app:
+  name: "Franchise System Monitor"
+  version: "1.0.0"
+
+monitoring:
+  refresh_interval: 60 # seconds
+  thresholds:
+    cpu: 90
+    memory: 85
+    disk: 85
+
+services:
+  critical_applications:
+    - name: "SmartCare"
+      port: 8000
+    - name: "SQLServer"
+      port: 1433
+    - name: "SmartLink"
+      port: 8080
+
+logging:
+  level: "INFO"
+  file: "logs/franchise_monitor.log"
+
+security:
+  session_timeout: 3600 # 1 hour

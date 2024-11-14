@@ -1,0 +1,25 @@
+2024-11-14 11:02:27,662 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
+2024-11-14 11:03:27,792 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
+2024-11-14 11:04:27,726 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
+2024-11-14 11:05:02,920 - FranchiseMonitor - ERROR - Error reading data: 'Timestamp'
+2024-11-14 11:06:03,916 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
+2024-11-14 11:06:32,730 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
+2024-11-14 11:07:32,862 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
+2024-11-14 11:08:32,784 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
+2024-11-14 11:09:32,777 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
+2024-11-14 11:12:34,383 - FranchiseMonitor - ERROR - Data file not found: server_data.csv
+2024-11-14 11:13:34,800 - FranchiseMonitor - ERROR - Data file not found: server_data.csv
+2024-11-14 11:25:16,413 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:26:16,829 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:26:46,407 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:26:50,966 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:27:51,789 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:28:51,827 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:29:51,789 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:31:28,043 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:32:28,785 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:33:28,837 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:34:28,779 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:35:29,770 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:36:37,569 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-14 11:37:37,801 - FranchiseMonitor - INFO - Data read from server_data.csv

@@ -1,0 +1,57 @@
+/* app/assets/custom.css */
+:root {
+    --primary-color: #2C3E50;
+    --secondary-color: #34495E;
+    --accent-color: #3498DB;
+    --success-color: #2ECC71;
+    --warning-color: #F1C40F;
+    --danger-color: #E74C3C;
+    --light-bg: #F8F9FA;
+    --dark-bg: #1a1a1a;
+}
+
+/* Dark mode styles */
+[data-theme="dark"] {
+    --text-color: #FFFFFF;
+    --bg-color: var(--dark-bg);
+    --card-bg: #2C3E50;
+}
+
+/* Light mode styles */
+[data-theme="light"] {
+    --text-color: #2C3E50;
+    --bg-color: var(--light-bg);
+    --card-bg: #FFFFFF;
+}
+
+.status-card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.status-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.service-status {
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.service-running {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.service-stopped {
+    background-color: var(--danger-color);
+    color: white;
+}
