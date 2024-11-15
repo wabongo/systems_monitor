@@ -115,20 +115,42 @@ def get_network_speeds():
 def check_port(port):
     """Check if a port is in use."""
     try:
+        # Try localhost first
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        result = sock.connect_ex(('127.0.0.1', port))
+        localhost_result = sock.connect_ex(('127.0.0.1', port))
         sock.close()
-        return result == 0
+        
+        # If not found on localhost, try all network interfaces
+        if localhost_result != 0:
+            hostname = socket.gethostname()
+            ip_addresses = socket.gethostbyname_ex(hostname)[2]
+            for ip in ip_addresses:
+                sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                result = sock.connect_ex((ip, port))
+                sock.close()
+                if result == 0:
+                    return True
+            return False
+        return True
     except:
         return False
 
 def check_application_status(application):
     """Check if the specified application is running and its port is active."""
     process_running = False
+    process_name = application['process_name'].lower()
+    
     for proc in psutil.process_iter(['pid', 'name']):
-        if proc.info['name'] == application['process_name']:
-            process_running = True
-            break
+        try:
+            if proc.info['name'].lower() == process_name:
+                process_running = True
+                break
+            # Check for partial matches (e.g., "sql" in "sqlservr.exe")
+            elif process_name in proc.info['name'].lower():
+                process_running = True
+                break
+        except (psutil.NoSuchProcess, psutil.AccessDenied):
+            continue
     
     port_active = check_port(application['port'])
     

@@ -6,7 +6,8 @@ from ..utils.logger import logger
 
 class DataHandler:
   def __init__(self):
-      self.csv_path = 'server_data.csv'
+      # Use absolute path for the CSV file
+      self.csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'server_data.csv')
       self._cache = None
       self._last_read = None
       self.cache_duration = timedelta(seconds=5)  # Refresh every 5 seconds
@@ -24,7 +25,7 @@ class DataHandler:
               if os.path.exists(self.csv_path):
                   df = pd.read_csv(self.csv_path)
                   df['timestamp'] = pd.to_datetime(df['timestamp'])
-                  self._cache = df
+                  self._cache = df.sort_values('timestamp')  # Sort by timestamp
                   self._last_read = datetime.now()
                   logger.info(f"Data read from {self.csv_path}")
               else:
@@ -64,16 +65,27 @@ class DataHandler:
       if df.empty:
           return pd.DataFrame()
 
-      cutoff_time = datetime.now() - timedelta(hours=hours)
-      filtered_df = df[
-          (df['computer_name'] == computer_name) & 
-          (df['timestamp'] >= cutoff_time)
-      ]
-      
-      # Ensure the requested metrics are in the DataFrame
-      available_metrics = [metric for metric in metrics if metric in filtered_df.columns]
-      
-      return filtered_df[['timestamp'] + available_metrics]  # Return timestamp and requested metrics
+      try:
+          cutoff_time = datetime.now() - timedelta(hours=hours)
+          filtered_df = df[
+              (df['computer_name'] == computer_name) & 
+              (df['timestamp'] >= cutoff_time)
+          ]
+          
+          # Ensure the requested metrics are in the DataFrame
+          available_metrics = [metric for metric in metrics if metric in filtered_df.columns]
+          if not available_metrics:
+              logger.warning(f"No requested metrics found in data: {metrics}")
+              return pd.DataFrame()
+              
+          # Sort by timestamp and get required columns
+          result = filtered_df[['timestamp'] + available_metrics].sort_values('timestamp')
+          logger.info(f"Retrieved historical data: {len(result)} rows")
+          return result
+            
+      except Exception as e:
+          logger.error(f"Error getting historical data: {str(e)}")
+          return pd.DataFrame()
 
   def get_service_status(self, computer_name: str) -> dict:
       """Get the status of services for a specific computer."""

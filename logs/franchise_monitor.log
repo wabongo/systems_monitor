@@ -1,391 +1,106 @@
-2024-11-14 11:02:27,662 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
-2024-11-14 11:03:27,792 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
-2024-11-14 11:04:27,726 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
-2024-11-14 11:05:02,920 - FranchiseMonitor - ERROR - Error reading data: 'Timestamp'
-2024-11-14 11:06:03,916 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
-2024-11-14 11:06:32,730 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
-2024-11-14 11:07:32,862 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
-2024-11-14 11:08:32,784 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
-2024-11-14 11:09:32,777 - FranchiseMonitor - ERROR - Data file not found: clinic_server_monitor.csv
-2024-11-14 11:12:34,383 - FranchiseMonitor - ERROR - Data file not found: server_data.csv
-2024-11-14 11:13:34,800 - FranchiseMonitor - ERROR - Data file not found: server_data.csv
-2024-11-14 11:25:16,413 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:26:16,829 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:26:46,407 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:26:50,966 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:27:51,789 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:28:51,827 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:29:51,789 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:31:28,043 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:32:28,785 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:33:28,837 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:34:28,779 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:35:29,770 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:36:37,569 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:37:37,801 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:49:43,255 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:50:43,766 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:51:59,386 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:52:03,484 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:52:23,495 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:53:17,884 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:54:23,819 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:55:23,751 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:55:37,619 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:55:44,049 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:56:44,799 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 11:57:00,069 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:08:01,423 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:08:23,284 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:08:27,944 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:09:28,849 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:10:28,638 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:11:29,403 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:12:29,760 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:12:51,702 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:13:52,385 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:14:52,717 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:14:52,723 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:14:52,725 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:14:52,736 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:14:52,746 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:15:52,745 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:16:34,196 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:17:34,418 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:18:34,155 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:20:53,259 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:21:53,377 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:22:53,389 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:23:53,399 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:24:54,674 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:24:54,701 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:24:54,703 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:24:54,705 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:24:54,706 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:26:34,356 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:27:34,345 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:28:34,346 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:29:29,094 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:29:53,496 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:29:53,502 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:29:53,516 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:29:53,840 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:29:53,860 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:30:53,542 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:30:53,550 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:30:53,571 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:30:53,572 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:30:53,577 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:31:53,469 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:32:05,247 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:32:11,001 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:33:05,218 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:33:05,218 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:33:05,222 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:33:05,222 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:33:05,303 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:34:05,211 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:34:05,217 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:34:05,232 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:34:05,253 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:34:05,267 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:35:05,210 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:35:05,210 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:36:06,648 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:36:06,663 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:36:06,668 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:36:06,690 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:36:06,703 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:36:50,109 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:37:34,178 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:38:34,187 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:38:48,943 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:39:41,004 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:39:54,257 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:40:11,597 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:41:11,356 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:42:11,766 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:42:33,411 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:42:33,413 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:42:33,417 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:42:33,428 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:43:13,640 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:43:13,641 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:43:13,641 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:43:55,327 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:46:52,213 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:46:58,436 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:46:58,450 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:46:58,458 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:46:58,467 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:47:56,637 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:47:56,639 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:47:56,646 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:47:56,646 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 12:47:56,649 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 13:01:39,756 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 13:01:48,781 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 13:01:48,786 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 13:01:48,805 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 13:01:48,806 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:51:12,621 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:51:43,638 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:51:43,640 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:51:43,645 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:51:43,669 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:52:13,595 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:52:13,599 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:52:13,604 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:52:13,635 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:52:13,652 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:53:03,647 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:54:03,667 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:55:03,661 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:55:07,385 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:55:34,136 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:56:04,946 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:56:11,367 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:57:11,631 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:58:11,603 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 14:59:11,599 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:00:12,586 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:01:34,305 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:02:34,282 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:03:34,316 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:04:34,271 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:05:34,286 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:12:25,173 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:13:21,660 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:13:21,678 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:13:21,683 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:13:21,698 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:14:25,594 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:14:25,598 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:14:25,609 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:14:25,631 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:14:25,649 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:15:25,618 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:16:25,688 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:16:31,598 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:16:40,965 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:17:29,794 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:17:29,794 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:17:29,810 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:17:29,814 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:17:40,937 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:17:40,944 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:17:40,950 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:17:40,955 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:17:40,957 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:18:41,272 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:19:41,611 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:19:41,611 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:19:41,616 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:19:41,627 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:19:41,629 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:20:42,575 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:20:42,599 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:20:42,609 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:20:42,612 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:20:42,614 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:21:34,551 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:22:26,291 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:22:31,425 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:22:31,427 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:23:13,471 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:24:02,531 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:25:03,287 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:25:19,161 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:26:10,114 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:27:10,681 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:27:10,788 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:28:10,588 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:29:10,637 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:29:10,643 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:29:10,643 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:29:10,647 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:30:11,641 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:30:11,641 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:30:11,645 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:30:11,645 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:31:34,275 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:32:34,275 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:33:34,282 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:34:34,308 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:35:34,302 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-14 15:36:34,309 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:44:48,873 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:44:54,821 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:45:49,864 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:45:49,866 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:45:49,866 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:45:49,891 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:46:49,845 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:46:49,847 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:46:49,851 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:46:49,856 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:47:49,836 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:47:49,840 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:47:49,841 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:47:49,843 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:48:50,870 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:48:50,870 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:48:50,891 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:48:50,926 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:50:30,514 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:51:30,547 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:51:50,470 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:52:50,083 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:53:50,473 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:55:30,479 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:56:30,481 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:57:30,471 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:58:30,478 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 08:59:30,476 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:00:30,482 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:01:30,468 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:02:30,472 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:03:30,494 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:04:30,471 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:05:30,484 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:06:30,473 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:08:20,788 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:09:20,816 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:23:48,270 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:24:48,872 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:25:21,481 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:25:52,725 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:26:53,784 - FranchiseMonitor - ERROR - Data file not found: server_data.csv
-2024-11-15 09:27:53,822 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:28:53,820 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:29:54,801 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:32:58,623 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:33:20,957 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:33:20,975 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 09:33:20,988 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:00:56,859 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:01:03,038 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:01:03,046 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:01:03,054 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:01:57,880 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:01:57,883 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:01:57,918 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:01:57,931 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:02:14,292 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:02:56,082 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:03:09,801 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:03:09,815 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:03:09,819 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:03:56,265 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:03:56,273 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:03:56,299 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:03:56,322 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:04:56,303 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:04:56,303 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:04:56,315 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:04:56,315 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:05:21,123 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:05:42,262 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:06:01,962 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:06:56,484 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:07:56,871 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:08:56,927 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:09:56,817 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:10:46,934 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:11:47,492 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:12:47,593 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:13:47,889 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:14:48,830 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:16:30,811 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:16:48,506 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:17:48,476 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:18:26,981 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:19:01,850 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:19:27,830 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:19:27,838 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:19:27,839 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:19:27,848 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:20:27,837 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:20:27,842 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:20:27,843 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:20:27,844 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:21:27,854 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:21:27,856 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:21:27,861 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:21:27,867 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:22:28,832 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:22:28,838 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:22:28,858 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:22:28,860 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:23:27,231 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:23:27,233 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:23:27,235 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:23:27,235 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:24:28,826 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:24:28,837 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:24:28,841 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:24:28,846 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:25:30,371 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:26:30,482 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:27:30,490 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:28:30,482 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:29:31,491 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:30:01,003 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:30:12,557 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:30:12,565 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:30:12,598 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:31:01,492 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:32:00,694 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:32:12,258 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:32:34,865 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:32:47,989 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:32:47,994 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:32:47,995 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:33:34,889 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:33:40,003 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:34:35,489 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:35:35,499 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:36:34,869 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:37:36,484 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:39:30,469 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:40:30,467 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:41:30,493 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:42:30,480 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:45:29,055 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:45:29,076 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:45:29,106 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:46:30,534 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 10:47:30,476 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:00:22,717 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:01:22,834 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:02:22,842 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:03:22,831 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:04:23,869 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:05:30,495 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:06:30,478 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:07:46,019 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:08:30,491 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:09:30,493 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:10:30,497 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:11:48,920 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:50:02,336 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:51:02,477 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:51:50,566 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:55:54,548 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:56:12,611 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:56:47,821 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:57:09,442 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:57:15,496 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:58:37,855 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 11:59:38,483 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:00:38,798 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:01:38,804 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:02:39,792 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:04:30,466 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:05:30,473 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:06:30,465 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:07:30,470 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:08:30,483 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:09:30,478 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:25:49,914 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 12:25:55,169 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-15 13:00:36,140 - FranchiseMonitor - INFO - Data read from server_data.csv
+2024-11-15 13:01:31,819 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:02:30,313 - FranchiseMonitor - ERROR - Data file not found: C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:02:36,429 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:02:50,964 - FranchiseMonitor - ERROR - Data file not found: C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:03:22,025 - FranchiseMonitor - ERROR - Data file not found: C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:03:38,801 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:03:40,600 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
+2024-11-15 13:03:40,601 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
+2024-11-15 13:03:45,928 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:03:48,909 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
+2024-11-15 13:03:48,916 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
+2024-11-15 13:04:46,793 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:04:46,794 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:04:46,799 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:04:46,803 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:04:46,805 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:04:46,808 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
+2024-11-15 13:04:46,824 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
+2024-11-15 13:05:46,798 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:05:46,801 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:05:46,828 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:05:46,836 - FranchiseMonitor - INFO - Retrieved historical data: 3 rows
+2024-11-15 13:05:46,838 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:05:46,842 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:05:46,867 - FranchiseMonitor - INFO - Retrieved historical data: 3 rows
+2024-11-15 13:06:46,789 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:06:46,796 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:06:46,801 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:06:46,803 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:06:46,825 - FranchiseMonitor - INFO - Retrieved historical data: 4 rows
+2024-11-15 13:06:46,827 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:06:46,834 - FranchiseMonitor - INFO - Retrieved historical data: 4 rows
+2024-11-15 13:07:47,798 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:07:47,803 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:07:47,825 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:07:47,830 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:07:47,831 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:07:47,834 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
+2024-11-15 13:07:47,837 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
+2024-11-15 13:09:30,751 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:09:30,783 - FranchiseMonitor - INFO - Retrieved historical data: 7 rows
+2024-11-15 13:09:30,795 - FranchiseMonitor - INFO - Retrieved historical data: 7 rows
+2024-11-15 13:10:30,475 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:10:30,782 - FranchiseMonitor - INFO - Retrieved historical data: 8 rows
+2024-11-15 13:10:30,785 - FranchiseMonitor - INFO - Retrieved historical data: 8 rows
+2024-11-15 13:11:30,475 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:11:30,772 - FranchiseMonitor - INFO - Retrieved historical data: 9 rows
+2024-11-15 13:11:30,777 - FranchiseMonitor - INFO - Retrieved historical data: 9 rows
+2024-11-15 13:12:30,474 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:12:30,774 - FranchiseMonitor - INFO - Retrieved historical data: 11 rows
+2024-11-15 13:12:30,779 - FranchiseMonitor - INFO - Retrieved historical data: 11 rows
+2024-11-15 13:13:30,465 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:13:30,777 - FranchiseMonitor - INFO - Retrieved historical data: 12 rows
+2024-11-15 13:13:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 12 rows
+2024-11-15 13:14:30,471 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:14:30,776 - FranchiseMonitor - INFO - Retrieved historical data: 13 rows
+2024-11-15 13:14:30,780 - FranchiseMonitor - INFO - Retrieved historical data: 13 rows
+2024-11-15 13:15:30,472 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:15:30,782 - FranchiseMonitor - INFO - Retrieved historical data: 14 rows
+2024-11-15 13:15:30,791 - FranchiseMonitor - INFO - Retrieved historical data: 14 rows
+2024-11-15 13:16:30,475 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:16:30,785 - FranchiseMonitor - INFO - Retrieved historical data: 15 rows
+2024-11-15 13:16:30,792 - FranchiseMonitor - INFO - Retrieved historical data: 15 rows
+2024-11-15 13:17:30,472 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:17:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 16 rows
+2024-11-15 13:17:30,786 - FranchiseMonitor - INFO - Retrieved historical data: 16 rows
+2024-11-15 13:18:30,478 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:18:30,793 - FranchiseMonitor - INFO - Retrieved historical data: 17 rows
+2024-11-15 13:18:30,795 - FranchiseMonitor - INFO - Retrieved historical data: 17 rows
+2024-11-15 13:19:30,471 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:19:30,797 - FranchiseMonitor - INFO - Retrieved historical data: 18 rows
+2024-11-15 13:19:30,799 - FranchiseMonitor - INFO - Retrieved historical data: 18 rows
+2024-11-15 13:20:30,482 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:20:30,778 - FranchiseMonitor - INFO - Retrieved historical data: 19 rows
+2024-11-15 13:20:30,782 - FranchiseMonitor - INFO - Retrieved historical data: 19 rows
+2024-11-15 13:21:30,473 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:21:30,799 - FranchiseMonitor - INFO - Retrieved historical data: 21 rows
+2024-11-15 13:21:30,801 - FranchiseMonitor - INFO - Retrieved historical data: 21 rows
+2024-11-15 13:22:30,467 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:22:30,767 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
+2024-11-15 13:22:30,770 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
+2024-11-15 13:23:30,467 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:23:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 23 rows
+2024-11-15 13:23:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 23 rows
+2024-11-15 13:24:30,463 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:24:30,765 - FranchiseMonitor - INFO - Retrieved historical data: 24 rows
+2024-11-15 13:24:30,765 - FranchiseMonitor - INFO - Retrieved historical data: 24 rows
+2024-11-15 13:25:30,474 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:25:30,776 - FranchiseMonitor - INFO - Retrieved historical data: 25 rows
+2024-11-15 13:25:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 25 rows
+2024-11-15 13:26:30,467 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:26:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 26 rows
+2024-11-15 13:26:30,785 - FranchiseMonitor - INFO - Retrieved historical data: 26 rows
+2024-11-15 13:27:30,485 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:27:30,806 - FranchiseMonitor - INFO - Retrieved historical data: 27 rows
+2024-11-15 13:27:30,810 - FranchiseMonitor - INFO - Retrieved historical data: 27 rows
+2024-11-15 13:28:30,474 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:28:30,772 - FranchiseMonitor - INFO - Retrieved historical data: 28 rows
+2024-11-15 13:28:30,786 - FranchiseMonitor - INFO - Retrieved historical data: 28 rows
+2024-11-15 13:29:30,479 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:29:30,796 - FranchiseMonitor - INFO - Retrieved historical data: 30 rows
+2024-11-15 13:29:30,799 - FranchiseMonitor - INFO - Retrieved historical data: 30 rows
+2024-11-15 13:31:28,909 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-15 13:31:33,867 - FranchiseMonitor - INFO - Retrieved historical data: 32 rows
+2024-11-15 13:31:33,868 - FranchiseMonitor - INFO - Retrieved historical data: 32 rows
