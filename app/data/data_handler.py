@@ -49,14 +49,8 @@ class DataHandler:
           'disk_usage': latest['disk_usage'],
           'network_bytes_sent': latest['network_bytes_sent'],
           'network_bytes_recv': latest['network_bytes_recv'],
-          'local_ip': latest['local_ip'],
-          'public_ip': latest['public_ip'],
-          'smartcare_status': latest['smartcare_status'],
-          'sql_server_status': latest['sql_server_status'],
-          'smartlink_status': latest['smartlink_status'],
-          'etims_status': latest['etims_status'],
-          'tims_status': latest['tims_status'],
-          'timestamp': latest['timestamp']
+          'upload_speed_mbps': latest['upload_speed_mbps'],
+          'download_speed_mbps': latest['download_speed_mbps']
       }
 
   def get_historical_data(self, computer_name: str, metrics: list, hours: int = 1) -> pd.DataFrame:

@@ -117,28 +117,19 @@ def update_network_metrics(computer_name, n):
         return "N/A", "N/A", go.Figure()
 
     try:
-        # Get historical network data
+        # Get historical network data including speed test results
         historical = data_handler.get_historical_data(
             computer_name, 
-            ['network_bytes_sent', 'network_bytes_recv']
+            ['upload_speed_mbps', 'download_speed_mbps']
         )
         
         if historical.empty:
             return "N/A", "N/A", go.Figure()
 
-        # Calculate speeds from bytes
-        time_diff = (historical['timestamp'].max() - historical['timestamp'].min()).total_seconds()
-        if time_diff > 0:
-            upload_speed = bytes_to_mbps(
-                historical['network_bytes_sent'].diff().fillna(0).mean(), 
-                time_diff / len(historical)
-            )
-            download_speed = bytes_to_mbps(
-                historical['network_bytes_recv'].diff().fillna(0).mean(),
-                time_diff / len(historical)
-            )
-        else:
-            upload_speed = download_speed = 0
+        # Get the latest speed test results
+        latest = historical.iloc[-1]
+        upload_speed = latest.get('upload_speed_mbps', 0)
+        download_speed = latest.get('download_speed_mbps', 0)
 
         # Create network metrics graph
         fig = go.Figure()
@@ -146,9 +137,7 @@ def update_network_metrics(computer_name, n):
         # Add upload speed trace
         fig.add_trace(go.Scatter(
             x=historical['timestamp'],
-            y=historical['network_bytes_sent'].diff().fillna(0).apply(
-                lambda x: bytes_to_mbps(x, time_diff / len(historical))
-            ),
+            y=historical['upload_speed_mbps'],
             name='Upload Speed (Mbps)',
             mode='lines+markers',
             line=dict(color='#2ECC71')
@@ -157,16 +146,14 @@ def update_network_metrics(computer_name, n):
         # Add download speed trace
         fig.add_trace(go.Scatter(
             x=historical['timestamp'],
-            y=historical['network_bytes_recv'].diff().fillna(0).apply(
-                lambda x: bytes_to_mbps(x, time_diff / len(historical))
-            ),
+            y=historical['download_speed_mbps'],
             name='Download Speed (Mbps)',
             mode='lines+markers',
             line=dict(color='#3498DB')
         ))
 
         fig.update_layout(
-            title="Network Speed History",
+            title="Internet Speed History",
             xaxis_title="Time",
             yaxis_title="Speed (Mbps)",
             hovermode='x unified'
@@ -237,3 +224,65 @@ def update_alerts(computer_name, n):
       )
   
   return alert_components
+
+@callback(
+    [
+        Output('network-graph', 'figure'),
+        Output('internet-speed-graph', 'figure')
+    ],
+    [Input('interval-component', 'n_intervals')]
+)
+def update_network_graphs(n):
+    try:
+        df = data_handler.get_historical_data()
+        if df.empty:
+            raise ValueError("No data available")
+
+        # Network Usage Graph
+        network_fig = go.Figure()
+        network_fig.add_trace(go.Scatter(
+            x=df['timestamp'],
+            y=df['upload_speed_mbps'],
+            name='Upload (Usage)',
+            line=dict(color='blue')
+        ))
+        network_fig.add_trace(go.Scatter(
+            x=df['timestamp'],
+            y=df['download_speed_mbps'],
+            name='Download (Usage)',
+            line=dict(color='green')
+        ))
+        
+        network_fig.update_layout(
+            title='Network Usage Over Time',
+            xaxis_title='Time',
+            yaxis_title='Speed (Mbps)',
+            template='plotly_dark'
+        )
+
+        # Internet Speed Test Graph
+        speed_fig = go.Figure()
+        speed_fig.add_trace(go.Scatter(
+            x=df['timestamp'],
+            y=df['internet_upload_speed'],
+            name='Upload (Speed Test)',
+            line=dict(color='orange')
+        ))
+        speed_fig.add_trace(go.Scatter(
+            x=df['timestamp'],
+            y=df['internet_download_speed'],
+            name='Download (Speed Test)',
+            line=dict(color='red')
+        ))
+        
+        speed_fig.update_layout(
+            title='Internet Speed Test Results',
+            xaxis_title='Time',
+            yaxis_title='Speed (Mbps)',
+            template='plotly_dark'
+        )
+
+        return network_fig, speed_fig
+    except Exception as e:
+        logger.error(f"Error updating network graphs: {e}")
+        return {}, {}

@@ -8,6 +8,7 @@ from datetime import datetime
 import csv
 from pathlib import Path
 import requests
+import speedtest
 
 # Configuration
 CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.json')
@@ -220,9 +221,56 @@ def check_thresholds(system_info):
     
     return alerts
 
+def get_internet_speed():
+    """Perform an internet speed test using speedtest-cli."""
+    try:
+        logger.info("Starting internet speed test...")
+        st = speedtest.Speedtest()
+        st.get_best_server()
+        
+        # Get download speed in bits per second
+        download_speed = st.download()
+        # Convert to Mbps
+        download_mbps = download_speed / 1_000_000
+        
+        # Get upload speed in bits per second
+        upload_speed = st.upload()
+        # Convert to Mbps
+        upload_mbps = upload_speed / 1_000_000
+        
+        logger.info(f"Speed test completed - Download: {download_mbps:.2f} Mbps, Upload: {upload_mbps:.2f} Mbps")
+        return round(download_mbps, 2), round(upload_mbps, 2)
+    except Exception as e:
+        logger.error(f"Error during speed test: {e}")
+        return 0, 0
+
+# Track last speed test time
+last_speed_test = 0
+SPEED_TEST_INTERVAL = 600  # Run speed test every 10 minutes (600 seconds)
+
 def collect_system_info():
     """Collect system information."""
+    global last_speed_test
+    
     try:
+        current_time = time.time()
+        
+        # Get regular network usage
+        upload_speed, download_speed = get_network_speeds()
+        
+        # Check if it's time for a speed test
+        if current_time - last_speed_test >= SPEED_TEST_INTERVAL:
+            internet_download, internet_upload = get_internet_speed()
+            last_speed_test = current_time
+        else:
+            # Use cached values or 0 if no test has been run yet
+            internet_download = getattr(collect_system_info, 'last_download', 0)
+            internet_upload = getattr(collect_system_info, 'last_upload', 0)
+        
+        # Cache the latest speed test results
+        collect_system_info.last_download = internet_download
+        collect_system_info.last_upload = internet_upload
+        
         # Get basic system stats
         cpu_usage = psutil.cpu_percent(interval=1)
         memory = psutil.virtual_memory()
@@ -230,7 +278,6 @@ def collect_system_info():
         
         # Get network stats and speeds
         net_io = psutil.net_io_counters()
-        upload_speed, download_speed = get_network_speeds()
         
         # Get process information
         processes = []
@@ -283,7 +330,11 @@ def collect_system_info():
                                   reverse=True)[:5],
             'local_ip': local_ip,
             'public_ip': public_ip,
-            'application_status': application_status
+            'application_status': application_status,
+            'internet_speed': {
+                'upload': internet_upload,
+                'download': internet_download
+            }
         }
         
         # Check for threshold alerts
@@ -306,7 +357,8 @@ def write_to_csv(data):
           "disk_usage", "network_bytes_sent", "network_bytes_recv",
           "upload_speed_mbps", "download_speed_mbps",
           "local_ip", "public_ip", "smartcare_status", "sql_server_status",
-          "smartlink_status", "etims_status", "tims_status"
+          "smartlink_status", "etims_status", "tims_status",
+          "internet_upload_speed", "internet_download_speed"
       ]
 
       file_exists = Path(CSV_FILE_PATH).exists()
@@ -333,7 +385,9 @@ def write_to_csv(data):
               "sql_server_status": data['application_status'].get('sql_server', 'Unknown'),
               "smartlink_status": data['application_status'].get('smartlink', 'Unknown'),
               "etims_status": data['application_status'].get('etims', 'Unknown'),
-              "tims_status": data['application_status'].get('tims', 'Unknown')
+              "tims_status": data['application_status'].get('tims', 'Unknown'),
+              "internet_upload_speed": data['internet_speed']['upload'],
+              "internet_download_speed": data['internet_speed']['download']
           })
 
           logger.debug(f"Data written to CSV: {data['timestamp']}")
