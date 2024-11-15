@@ -1,0 +1,39 @@
+{
+    "interval": 10,
+    "debug_mode": true,
+    "applications": {
+        "smartcare": {
+            "process_name": "SmartCareProcessName",
+            "port": 8080
+        },
+        "sql_server": {
+            "process_name": "sqlservr",
+            "port": 1433
+        },
+        "smartlink": {
+            "process_name": "SmartLinkProcessName",
+            "port": 3307
+        },
+        "etims": {
+            "process_name": "ETIMSProcessName",
+            "port": 8000
+        },
+        "tims": {
+            "process_name": "TIMSProcessName",
+            "port": 8089
+        }
+    },
+    "thresholds": {
+        "cpu_percent": 80,
+        "memory_percent": 90,
+        "disk_percent": 85
+    },
+    "network_monitoring": {
+        "check_ip_interval": 300,
+        "ip_change_alert": true,
+        "speed_threshold": {
+            "min_upload_mbps": 1.0,
+            "min_download_mbps": 1.0
+        }
+    }
+}

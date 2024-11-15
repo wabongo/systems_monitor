@@ -1,49 +1,122 @@
 /* app/assets/custom.css */
 :root {
-    --primary-color: #2C3E50;
-    --secondary-color: #34495E;
-    --accent-color: #3498DB;
-    --success-color: #2ECC71;
-    --warning-color: #F1C40F;
-    --danger-color: #E74C3C;
-    --light-bg: #F8F9FA;
-    --dark-bg: #1a1a1a;
+    --primary-color: #2563eb;
+    --secondary-color: #3b82f6;
+    --accent-color: #60a5fa;
+    --success-color: #22c55e;
+    --warning-color: #eab308;
+    --danger-color: #ef4444;
+    --light-bg: #f8fafc;
+    --dark-bg: #0f172a;
+    --card-yellow: #fff480;
+    --card-blue: #bfdbfe;
+    --card-green: #bbf7d0;
+    --card-purple: #ddd6fe;
 }
 
 /* Dark mode styles */
 [data-theme="dark"] {
-    --text-color: #FFFFFF;
+    --text-color: #f1f5f9;
     --bg-color: var(--dark-bg);
-    --card-bg: #2C3E50;
+    --card-bg: #1e293b;
 }
 
 /* Light mode styles */
 [data-theme="light"] {
-    --text-color: #2C3E50;
+    --text-color: #0f172a;
     --bg-color: var(--light-bg);
-    --card-bg: #FFFFFF;
+    --card-bg: #ffffff;
 }
 
-.status-card {
+/* Base styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Modern Card Design */
+.card {
+    background: var(--card-bg);
+    color: var(--text-color);
+    position: relative;
+    border-radius: 1.5em;
+    padding: 1.5em;
     transition: all 0.3s ease;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    transform: scale(0.95);
 }
 
-.status-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+.card:hover {
+    transform: scale(0.93);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.card .card-header {
+    background: transparent;
+    border-bottom: none;
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .card-body {
+    padding: 0.75rem 1rem;
+}
+
+/* Metric Cards */
+.status-card {
+    background: var(--card-yellow);
+    color: #0f172a;
+    height: 140px;
+    margin-bottom: 1rem;
+}
+
+.status-card:nth-child(2) {
+    background: var(--card-blue);
+}
+
+.status-card:nth-child(3) {
+    background: var(--card-green);
+}
+
+.status-card .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+    height: 100%;
+}
+
+.status-card .card-top, 
+.status-card .card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .metric-value {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0f172a;
 }
 
+/* Icons */
+.fa-2x {
+    font-size: 1.25em;
+    opacity: 0.8;
+}
+
+/* Service status indicators */
 .service-status {
-    padding: 0.25rem 0.75rem;
-    border-radius: 15px;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.75rem;
     font-weight: 500;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
 }
 
 .service-running {
@@ -54,4 +127,152 @@
 .service-stopped {
     background-color: var(--danger-color);
     color: white;
+}
+
+/* Tab styling */
+.nav-tabs {
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 1rem;
+}
+
+.nav-tabs .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #64748b;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    background: transparent;
+}
+
+/* Graphs */
+.js-plotly-plot {
+    margin-bottom: 0.5rem;
+    transform: scale(0.9);
+}
+
+/* Dropdown */
+.Select-control {
+    border-radius: 0.75rem;
+    border: 1px solid #e2e8f0;
+}
+
+/* Navbar Styles */
+.navbar-custom {
+    background: var(--card-bg);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--text-color);
+}
+
+/* Theme Toggle Button */
+.theme-toggle-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.theme-toggle-btn {
+    cursor: pointer;
+    width: 56px;
+    height: 28px;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 100px;
+    position: relative;
+    transition: all 0.3s ease;
+    padding: 0;
+    overflow: hidden;
+}
+
+.theme-toggle-btn:hover {
+    opacity: 0.9;
+}
+
+[data-theme="dark"] .theme-toggle-btn {
+    background: #374151;
+}
+
+.toggle-icons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    position: relative;
+}
+
+.toggle-icons::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+[data-theme="dark"] .toggle-icons::after {
+    transform: translateX(28px);
+}
+
+.toggle-icon-light {
+    color: #fbbf24;
+    font-size: 0.875rem;
+    z-index: 1;
+}
+
+.toggle-icon-dark {
+    color: #f1f5f9;
+    font-size: 0.875rem;
+    z-index: 1;
+}
+
+/* Export Button */
+.export-btn {
+    background: var(--primary-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.export-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-1px);
+}
+
+.export-btn:active {
+    transform: translateY(0);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+    animation: fadeIn 0.3s ease-out;
 }

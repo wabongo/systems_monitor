@@ -16,20 +16,38 @@ def create_layout():
                           dcc.Dropdown(
                               id='computer-selector',
                               placeholder="Select a computer...",
-                              className="mb-3"
+                              className="mb-2"
                           ),
-                          html.Div(id="last-update-time", className="text-muted")
+                          html.Div(id="last-update-time", className="text-muted small")
                       ])
-                  ], className="mb-4"),
+                  ], className="mb-3"),
                   html.Div(id="alerts-container")  # Container for alerts
               ], width=12, lg=3),
               dbc.Col([
                   html.Div(id="main-metrics-container"),
-                  dbc.Row([
-                      dbc.Col(create_system_metrics(""), width=12),
-                      dbc.Col(create_services_status(), width=12, lg=6),
-                      dbc.Col(create_network_metrics(), width=12, lg=6),
-                  ])
+                  dbc.Tabs([
+                      dbc.Tab(
+                          dbc.Row([
+                              dbc.Col(create_system_metrics(""), width=12)
+                          ]),
+                          label="System Metrics",
+                          tab_id="system-metrics-tab"
+                      ),
+                      dbc.Tab(
+                          dbc.Row([
+                              dbc.Col(create_services_status(), width=12)
+                          ]),
+                          label="Service Status",
+                          tab_id="service-status-tab"
+                      ),
+                      dbc.Tab(
+                          dbc.Row([
+                              dbc.Col(create_network_metrics(), width=12)
+                          ]),
+                          label="Network Metrics",
+                          tab_id="network-metrics-tab"
+                      ),
+                  ], id="metrics-tabs", active_tab="system-metrics-tab")
               ], width=12, lg=9)
           ])
       ], fluid=True),

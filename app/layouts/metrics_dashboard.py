@@ -45,10 +45,15 @@ def create_metric_card(title, value, icon):
     return dbc.Card([
         dbc.CardBody([
             html.Div([
-                html.I(className=f"{icon} fa-2x mb-2"),
-                html.H5(title, className="mb-2"),
-                html.Div(value, className="metric-value")
-            ], className="text-center")
+                html.Div([
+                    html.Span(title, className="card-title"),
+                    html.I(className=f"{icon}")
+                ], className="card-top"),
+                html.Div([
+                    value,
+                    html.I(className="fas fa-arrow-trend-up")
+                ], className="card-bottom")
+            ], className="card-content")
         ])
     ], className="status-card")
 
@@ -87,4 +92,3 @@ def create_network_metrics():
             ])
         ])
     ], className="mb-4")
-
