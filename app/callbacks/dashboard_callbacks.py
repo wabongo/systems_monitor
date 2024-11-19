@@ -120,7 +120,7 @@ def update_network_metrics(computer_name, n):
         # Get historical network data including speed test results
         historical = data_handler.get_historical_data(
             computer_name, 
-            ['upload_speed_mbps', 'download_speed_mbps']
+            ['internet_upload_speed', 'internet_download_speed']
         )
         
         if historical.empty:
@@ -128,8 +128,8 @@ def update_network_metrics(computer_name, n):
 
         # Get the latest speed test results
         latest = historical.iloc[-1]
-        upload_speed = latest.get('upload_speed_mbps', 0)
-        download_speed = latest.get('download_speed_mbps', 0)
+        upload_speed = latest.get('internet_upload_speed', 0)
+        download_speed = latest.get('internet_download_speed', 0)
 
         # Create network metrics graph
         fig = go.Figure()
@@ -137,7 +137,7 @@ def update_network_metrics(computer_name, n):
         # Add upload speed trace
         fig.add_trace(go.Scatter(
             x=historical['timestamp'],
-            y=historical['upload_speed_mbps'],
+            y=historical['internet_upload_speed'],
             name='Upload Speed (Mbps)',
             mode='lines+markers',
             line=dict(color='#2ECC71')
@@ -146,7 +146,7 @@ def update_network_metrics(computer_name, n):
         # Add download speed trace
         fig.add_trace(go.Scatter(
             x=historical['timestamp'],
-            y=historical['download_speed_mbps'],
+            y=historical['internet_download_speed'],
             name='Download Speed (Mbps)',
             mode='lines+markers',
             line=dict(color='#3498DB')
@@ -286,3 +286,47 @@ def update_network_graphs(n):
     except Exception as e:
         logger.error(f"Error updating network graphs: {e}")
         return {}, {}
+
+@callback(
+    [Output("local-ip-display", "children"),
+     Output("public-ip-display", "children"),
+     Output("ip-change-alert", "is_open"),
+     Output("ip-change-alert", "children")],
+    [Input("computer-selector", "value"),
+     Input("metrics-update-interval", "n_intervals")]
+)
+def update_ip_addresses(computer_name, n):
+    """Update IP address displays and check for IP changes."""
+    if not computer_name:
+        return "N/A", "N/A", False, ""
+    
+    try:
+        metrics = data_handler.get_latest_metrics(computer_name)
+        if not metrics:
+            return "N/A", "N/A", False, ""
+        
+        local_ip = metrics.get('local_ip', 'N/A')
+        public_ip = metrics.get('public_ip', 'N/A')
+        
+        # Don't show "Unknown" in the UI
+        if local_ip == "Unknown":
+            local_ip = "Not Available"
+        if public_ip == "Unknown":
+            public_ip = "Not Available"
+        
+        # Check for IP change only if we have valid IPs
+        if public_ip not in ["N/A", "Not Available"]:
+            previous_metrics = data_handler.get_previous_metrics(computer_name)
+            prev_ip = previous_metrics.get('public_ip') if previous_metrics else None
+            if prev_ip and prev_ip not in ["N/A", "Unknown", "Not Available"] and prev_ip != public_ip:
+                alert_msg = html.Div([
+                    html.I(className="fas fa-exclamation-triangle me-2"),
+                    f"Public IP changed from {prev_ip} to {public_ip}"
+                ])
+                return local_ip, public_ip, True, alert_msg
+        
+        return local_ip, public_ip, False, ""
+        
+    except Exception as e:
+        logger.error(f"Error updating IP addresses: {str(e)}")
+        return "Error", "Error", False, ""  # Return error state on exception

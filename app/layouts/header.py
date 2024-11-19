@@ -14,16 +14,35 @@ def create_header():
                     ], className="d-flex align-items-center gap-3")
                 ], width="auto"),
                 
+                # Center - IP Address Information
+                dbc.Col([
+                    html.Div([
+                        html.Div([
+                            html.I(className="fas fa-network-wired me-2"),
+                            html.Span("Local IP: ", className="text-muted"),
+                            html.Span(id="local-ip-display", className="fw-bold")
+                        ], className="me-4"),
+                        html.Div([
+                            html.I(className="fas fa-globe me-2"),
+                            html.Span("Public IP: ", className="text-muted"),
+                            html.Span(id="public-ip-display", className="fw-bold")
+                        ])
+                    ], className="d-flex align-items-center justify-content-center")
+                ], className="text-center"),
+                
                 # Right side - Controls
                 dbc.Col([
                     html.Div([
-                        # Dark mode toggle
+                        # IP Change Alert
                         html.Div([
-                            html.Button([
-                                html.I(id="theme-toggle-icon", className="fas fa-moon")
-                            ], id="theme-toggle", className="theme-toggle-btn")
-                        ], className="theme-toggle-wrapper me-3"),
-                        
+                            dbc.Alert(
+                                id="ip-change-alert",
+                                is_open=False,
+                                duration=0,
+                                color="warning",
+                                className="position-fixed top-0 end-0 m-3"
+                            )
+                        ]),
                         # Export button
                         dbc.Button([
                             html.I(className="fas fa-download me-2"),

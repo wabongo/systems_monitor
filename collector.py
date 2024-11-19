@@ -14,6 +14,25 @@ import speedtest
 CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.json')
 CSV_FILE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'server_data.csv')
 
+def setup_logging():
+    """Set up logging configuration."""
+    log_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'logs')
+    os.makedirs(log_dir, exist_ok=True)
+    
+    log_file = os.path.join(log_dir, 'collector.log')
+    
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(log_file),
+            logging.StreamHandler()
+        ]
+    )
+    return logging.getLogger('Collector')
+
+logger = setup_logging()
+
 def load_config():
     """Load configuration from config.json file."""
     try:
@@ -50,13 +69,6 @@ else:
         'memory_percent': 90,
         'disk_percent': 85
     })
-
-# Set up logging
-logging.basicConfig(
-    level=logging.DEBUG if DEBUG_MODE else logging.INFO,
-    format='%(asctime)s %(levelname)s:%(message)s'
-)
-logger = logging.getLogger(__name__)
 
 # Store previous network counters and IP
 previous_net_io = None
@@ -182,26 +194,42 @@ def get_ip_addresses():
     """Get the computer's static and public IP addresses."""
     global previous_public_ip
     
+    local_ip = "Unknown"
+    public_ip = "Unknown"
+    
     try:
         # Get local IP
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        s.connect(("8.8.8.8", 80))
-        local_ip = s.getsockname()[0]
-        s.close()
+        s.settimeout(5)  # 5 second timeout
+        try:
+            s.connect(("8.8.8.8", 80))
+            local_ip = s.getsockname()[0]
+        except (socket.timeout, socket.error) as e:
+            logger.error(f"Error getting local IP: {str(e)}")
+        finally:
+            s.close()
         
-        # Get public IP
-        public_ip = requests.get('https://api.ipify.org').text
+        # Get public IP with timeout
+        try:
+            response = requests.get('https://api.ipify.org', timeout=5)
+            if response.status_code == 200:
+                public_ip = response.text
+            else:
+                logger.error(f"Error getting public IP: HTTP {response.status_code}")
+        except requests.RequestException as e:
+            logger.error(f"Error getting public IP: {str(e)}")
         
-        # Check for IP change
-        ip_changed, old_ip = check_ip_change(public_ip)
-        if ip_changed:
-            logger.warning(f"PUBLIC IP CHANGED - Old: {old_ip}, New: {public_ip}")
-            logger.warning("Remote access may be affected! Update whitelist configurations.")
+        # Check for IP change only if we got a valid public IP
+        if public_ip != "Unknown":
+            ip_changed, old_ip = check_ip_change(public_ip)
+            if ip_changed:
+                logger.warning(f"PUBLIC IP CHANGED - Old: {old_ip}, New: {public_ip}")
+                logger.warning("Remote access may be affected! Update whitelist configurations.")
         
         return local_ip, public_ip
     except Exception as e:
-        logger.exception('Error getting IP addresses')
-        return None, None
+        logger.exception('Unexpected error getting IP addresses')
+        return local_ip, public_ip  # Return whatever we managed to get
 
 def check_thresholds(system_info):
     """Check if any metrics exceed defined thresholds."""
@@ -225,23 +253,42 @@ def get_internet_speed():
     """Perform an internet speed test using speedtest-cli."""
     try:
         logger.info("Starting internet speed test...")
-        st = speedtest.Speedtest()
-        st.get_best_server()
+        st = speedtest.Speedtest(secure=True)  # Use HTTPS
+        
+        # Configure timeouts
+        st.timeout = 30  # 30 second timeout
+        
+        # Get server list
+        logger.info("Getting server list...")
+        st.get_servers()
+        
+        # Get best server
+        logger.info("Finding best server...")
+        best = st.get_best_server()
+        logger.info(f"Selected server: {best['host']} ({best['country']})")
         
         # Get download speed in bits per second
+        logger.info("Testing download speed...")
         download_speed = st.download()
         # Convert to Mbps
         download_mbps = download_speed / 1_000_000
         
         # Get upload speed in bits per second
+        logger.info("Testing upload speed...")
         upload_speed = st.upload()
         # Convert to Mbps
         upload_mbps = upload_speed / 1_000_000
         
         logger.info(f"Speed test completed - Download: {download_mbps:.2f} Mbps, Upload: {upload_mbps:.2f} Mbps")
         return round(download_mbps, 2), round(upload_mbps, 2)
+    except speedtest.ConfigRetrievalError:
+        logger.error("Failed to retrieve speedtest.net configuration. Check network connectivity.")
+        return 0, 0
+    except speedtest.NoMatchedServers:
+        logger.error("No matched servers - could not find a suitable speedtest.net server.")
+        return 0, 0
     except Exception as e:
-        logger.error(f"Error during speed test: {e}")
+        logger.error(f"Error during speed test: {str(e)}")
         return 0, 0
 
 # Track last speed test time
