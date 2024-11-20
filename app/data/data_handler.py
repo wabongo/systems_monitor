@@ -38,20 +38,26 @@ class DataHandler:
 
   def get_latest_metrics(self, computer_name: str) -> dict:
       """Get the latest metrics for a specific computer."""
+      # Always read fresh data
+      self._cache = None
       df = self.read_data()
+      
       if df.empty:
           return {}
       
-      latest = df[df['computer_name'] == computer_name].iloc[-1]
-      return {
-          'cpu_usage': latest['cpu_usage'],
-          'memory_usage': latest['memory_usage'],
-          'disk_usage': latest['disk_usage'],
-          'network_bytes_sent': latest['network_bytes_sent'],
-          'network_bytes_recv': latest['network_bytes_recv'],
-          'upload_speed_mbps': latest['upload_speed_mbps'],
-          'download_speed_mbps': latest['download_speed_mbps']
-      }
+      try:
+          # Get the latest row for this computer
+          computer_data = df[df['computer_name'] == computer_name]
+          if computer_data.empty:
+              return {}
+          
+          # Convert the entire row to a dictionary
+          latest = computer_data.iloc[-1]
+          return latest.to_dict()
+          
+      except Exception as e:
+          logger.error(f"Error getting latest metrics: {str(e)}")
+          return {}
 
   def get_historical_data(self, computer_name: str, metrics: list, hours: int = 1) -> pd.DataFrame:
       """Get historical data for specific metrics."""
@@ -95,3 +101,23 @@ class DataHandler:
           'etims': latest['etims_status'],
           'tims': latest['tims_status']
       }
+
+  def get_previous_metrics(self, computer_name: str) -> dict:
+      """Get the second-to-last metrics for a specific computer."""
+      df = self.read_data()
+      if df.empty:
+          return {}
+      
+      try:
+          # Get data for this computer
+          computer_data = df[df['computer_name'] == computer_name]
+          if len(computer_data) < 2:  # Need at least 2 rows for previous metrics
+              return {}
+          
+          # Get the second-to-last row
+          previous = computer_data.iloc[-2]
+          return previous.to_dict()
+          
+      except Exception as e:
+          logger.error(f"Error getting previous metrics: {str(e)}")
+          return {}
