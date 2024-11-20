@@ -1,430 +1,147 @@
-2024-11-15 13:00:36,140 - FranchiseMonitor - INFO - Data read from server_data.csv
-2024-11-15 13:01:31,819 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:02:30,313 - FranchiseMonitor - ERROR - Data file not found: C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:02:36,429 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:02:50,964 - FranchiseMonitor - ERROR - Data file not found: C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:03:22,025 - FranchiseMonitor - ERROR - Data file not found: C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:03:38,801 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:03:40,600 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 13:03:40,601 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 13:03:45,928 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:03:48,909 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 13:03:48,916 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 13:04:46,793 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:04:46,794 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:04:46,799 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:04:46,803 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:04:46,805 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:04:46,808 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
-2024-11-15 13:04:46,824 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
-2024-11-15 13:05:46,798 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:05:46,801 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:05:46,828 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:05:46,836 - FranchiseMonitor - INFO - Retrieved historical data: 3 rows
-2024-11-15 13:05:46,838 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:05:46,842 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:05:46,867 - FranchiseMonitor - INFO - Retrieved historical data: 3 rows
-2024-11-15 13:06:46,789 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:06:46,796 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:06:46,801 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:06:46,803 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:06:46,825 - FranchiseMonitor - INFO - Retrieved historical data: 4 rows
-2024-11-15 13:06:46,827 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:06:46,834 - FranchiseMonitor - INFO - Retrieved historical data: 4 rows
-2024-11-15 13:07:47,798 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:07:47,803 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:07:47,825 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:07:47,830 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:07:47,831 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:07:47,834 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
-2024-11-15 13:07:47,837 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
-2024-11-15 13:09:30,751 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:09:30,783 - FranchiseMonitor - INFO - Retrieved historical data: 7 rows
-2024-11-15 13:09:30,795 - FranchiseMonitor - INFO - Retrieved historical data: 7 rows
-2024-11-15 13:10:30,475 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:10:30,782 - FranchiseMonitor - INFO - Retrieved historical data: 8 rows
-2024-11-15 13:10:30,785 - FranchiseMonitor - INFO - Retrieved historical data: 8 rows
-2024-11-15 13:11:30,475 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:11:30,772 - FranchiseMonitor - INFO - Retrieved historical data: 9 rows
-2024-11-15 13:11:30,777 - FranchiseMonitor - INFO - Retrieved historical data: 9 rows
-2024-11-15 13:12:30,474 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:12:30,774 - FranchiseMonitor - INFO - Retrieved historical data: 11 rows
-2024-11-15 13:12:30,779 - FranchiseMonitor - INFO - Retrieved historical data: 11 rows
-2024-11-15 13:13:30,465 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:13:30,777 - FranchiseMonitor - INFO - Retrieved historical data: 12 rows
-2024-11-15 13:13:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 12 rows
-2024-11-15 13:14:30,471 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:14:30,776 - FranchiseMonitor - INFO - Retrieved historical data: 13 rows
-2024-11-15 13:14:30,780 - FranchiseMonitor - INFO - Retrieved historical data: 13 rows
-2024-11-15 13:15:30,472 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:15:30,782 - FranchiseMonitor - INFO - Retrieved historical data: 14 rows
-2024-11-15 13:15:30,791 - FranchiseMonitor - INFO - Retrieved historical data: 14 rows
-2024-11-15 13:16:30,475 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:16:30,785 - FranchiseMonitor - INFO - Retrieved historical data: 15 rows
-2024-11-15 13:16:30,792 - FranchiseMonitor - INFO - Retrieved historical data: 15 rows
-2024-11-15 13:17:30,472 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:17:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 16 rows
-2024-11-15 13:17:30,786 - FranchiseMonitor - INFO - Retrieved historical data: 16 rows
-2024-11-15 13:18:30,478 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:18:30,793 - FranchiseMonitor - INFO - Retrieved historical data: 17 rows
-2024-11-15 13:18:30,795 - FranchiseMonitor - INFO - Retrieved historical data: 17 rows
-2024-11-15 13:19:30,471 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:19:30,797 - FranchiseMonitor - INFO - Retrieved historical data: 18 rows
-2024-11-15 13:19:30,799 - FranchiseMonitor - INFO - Retrieved historical data: 18 rows
-2024-11-15 13:20:30,482 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:20:30,778 - FranchiseMonitor - INFO - Retrieved historical data: 19 rows
-2024-11-15 13:20:30,782 - FranchiseMonitor - INFO - Retrieved historical data: 19 rows
-2024-11-15 13:21:30,473 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:21:30,799 - FranchiseMonitor - INFO - Retrieved historical data: 21 rows
-2024-11-15 13:21:30,801 - FranchiseMonitor - INFO - Retrieved historical data: 21 rows
-2024-11-15 13:22:30,467 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:22:30,767 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
-2024-11-15 13:22:30,770 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
-2024-11-15 13:23:30,467 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:23:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 23 rows
-2024-11-15 13:23:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 23 rows
-2024-11-15 13:24:30,463 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:24:30,765 - FranchiseMonitor - INFO - Retrieved historical data: 24 rows
-2024-11-15 13:24:30,765 - FranchiseMonitor - INFO - Retrieved historical data: 24 rows
-2024-11-15 13:25:30,474 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:25:30,776 - FranchiseMonitor - INFO - Retrieved historical data: 25 rows
-2024-11-15 13:25:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 25 rows
-2024-11-15 13:26:30,467 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:26:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 26 rows
-2024-11-15 13:26:30,785 - FranchiseMonitor - INFO - Retrieved historical data: 26 rows
-2024-11-15 13:27:30,485 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:27:30,806 - FranchiseMonitor - INFO - Retrieved historical data: 27 rows
-2024-11-15 13:27:30,810 - FranchiseMonitor - INFO - Retrieved historical data: 27 rows
-2024-11-15 13:28:30,474 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:28:30,772 - FranchiseMonitor - INFO - Retrieved historical data: 28 rows
-2024-11-15 13:28:30,786 - FranchiseMonitor - INFO - Retrieved historical data: 28 rows
-2024-11-15 13:29:30,479 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:29:30,796 - FranchiseMonitor - INFO - Retrieved historical data: 30 rows
-2024-11-15 13:29:30,799 - FranchiseMonitor - INFO - Retrieved historical data: 30 rows
-2024-11-15 13:31:28,909 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:31:33,867 - FranchiseMonitor - INFO - Retrieved historical data: 32 rows
-2024-11-15 13:31:33,868 - FranchiseMonitor - INFO - Retrieved historical data: 32 rows
-2024-11-15 13:32:29,509 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:32:29,812 - FranchiseMonitor - INFO - Retrieved historical data: 33 rows
-2024-11-15 13:32:29,814 - FranchiseMonitor - INFO - Retrieved historical data: 33 rows
-2024-11-15 13:33:28,846 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:33:28,943 - FranchiseMonitor - INFO - Retrieved historical data: 34 rows
-2024-11-15 13:33:28,945 - FranchiseMonitor - INFO - Retrieved historical data: 34 rows
-2024-11-15 13:34:29,504 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:34:29,807 - FranchiseMonitor - INFO - Retrieved historical data: 35 rows
-2024-11-15 13:34:29,810 - FranchiseMonitor - INFO - Retrieved historical data: 35 rows
-2024-11-15 13:35:33,498 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:35:33,506 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:35:33,518 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:35:33,583 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:35:33,606 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:35:33,611 - FranchiseMonitor - INFO - Retrieved historical data: 36 rows
-2024-11-15 13:35:33,620 - FranchiseMonitor - INFO - Retrieved historical data: 36 rows
-2024-11-15 13:36:30,471 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:36:30,780 - FranchiseMonitor - INFO - Retrieved historical data: 37 rows
-2024-11-15 13:36:30,783 - FranchiseMonitor - INFO - Retrieved historical data: 37 rows
-2024-11-15 13:37:30,477 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:37:30,785 - FranchiseMonitor - INFO - Retrieved historical data: 38 rows
-2024-11-15 13:37:30,792 - FranchiseMonitor - INFO - Retrieved historical data: 38 rows
-2024-11-15 13:38:30,474 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:38:30,785 - FranchiseMonitor - INFO - Retrieved historical data: 40 rows
-2024-11-15 13:38:30,791 - FranchiseMonitor - INFO - Retrieved historical data: 40 rows
-2024-11-15 13:39:30,472 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:39:30,770 - FranchiseMonitor - INFO - Retrieved historical data: 41 rows
-2024-11-15 13:39:30,773 - FranchiseMonitor - INFO - Retrieved historical data: 41 rows
-2024-11-15 13:40:30,472 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:40:30,773 - FranchiseMonitor - INFO - Retrieved historical data: 42 rows
-2024-11-15 13:40:30,776 - FranchiseMonitor - INFO - Retrieved historical data: 42 rows
-2024-11-15 13:41:30,476 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:41:30,783 - FranchiseMonitor - INFO - Retrieved historical data: 43 rows
-2024-11-15 13:41:30,792 - FranchiseMonitor - INFO - Retrieved historical data: 43 rows
-2024-11-15 13:42:30,475 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:42:30,770 - FranchiseMonitor - INFO - Retrieved historical data: 44 rows
-2024-11-15 13:42:30,772 - FranchiseMonitor - INFO - Retrieved historical data: 44 rows
-2024-11-15 13:43:30,467 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:43:30,765 - FranchiseMonitor - INFO - Retrieved historical data: 45 rows
-2024-11-15 13:43:30,766 - FranchiseMonitor - INFO - Retrieved historical data: 45 rows
-2024-11-15 13:44:30,478 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:44:30,775 - FranchiseMonitor - INFO - Retrieved historical data: 46 rows
-2024-11-15 13:44:30,781 - FranchiseMonitor - INFO - Retrieved historical data: 46 rows
-2024-11-15 13:45:30,461 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:45:30,770 - FranchiseMonitor - INFO - Retrieved historical data: 47 rows
-2024-11-15 13:45:30,777 - FranchiseMonitor - INFO - Retrieved historical data: 47 rows
-2024-11-15 13:46:30,474 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 13:46:30,769 - FranchiseMonitor - INFO - Retrieved historical data: 49 rows
-2024-11-15 13:46:30,769 - FranchiseMonitor - INFO - Retrieved historical data: 49 rows
-2024-11-15 15:43:51,250 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:43:51,789 - FranchiseMonitor - INFO - Retrieved historical data: 0 rows
-2024-11-15 15:43:51,868 - FranchiseMonitor - INFO - Retrieved historical data: 0 rows
-2024-11-15 15:45:19,293 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:45:25,024 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:45:25,049 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 15:45:25,298 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 15:46:19,047 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:46:19,054 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:46:19,060 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:46:19,063 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
-2024-11-15 15:46:19,071 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:46:19,071 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:46:19,096 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
-2024-11-15 15:46:44,600 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:46:53,975 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:46:53,986 - FranchiseMonitor - INFO - Retrieved historical data: 3 rows
-2024-11-15 15:46:54,283 - FranchiseMonitor - INFO - Retrieved historical data: 3 rows
-2024-11-15 15:47:44,535 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:47:44,538 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:47:44,545 - FranchiseMonitor - INFO - Retrieved historical data: 4 rows
-2024-11-15 15:47:44,548 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:47:44,553 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:47:44,554 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:47:44,591 - FranchiseMonitor - INFO - Retrieved historical data: 4 rows
-2024-11-15 15:48:44,809 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:48:44,833 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
-2024-11-15 15:48:44,853 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
-2024-11-15 15:49:44,806 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:49:44,810 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:49:44,811 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:49:44,815 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:49:44,820 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:49:44,844 - FranchiseMonitor - INFO - Retrieved historical data: 6 rows
-2024-11-15 15:49:44,847 - FranchiseMonitor - INFO - Retrieved historical data: 6 rows
-2024-11-15 15:50:45,872 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:50:45,873 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:50:45,880 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:50:45,880 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:50:45,922 - FranchiseMonitor - INFO - Retrieved historical data: 7 rows
-2024-11-15 15:50:45,922 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:50:45,940 - FranchiseMonitor - INFO - Retrieved historical data: 7 rows
-2024-11-15 15:52:30,899 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:52:30,933 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:52:30,936 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:52:30,941 - FranchiseMonitor - INFO - Retrieved historical data: 9 rows
-2024-11-15 15:52:30,946 - FranchiseMonitor - INFO - Retrieved historical data: 9 rows
-2024-11-15 15:53:30,787 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:53:30,798 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:53:30,801 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:53:30,821 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:53:30,828 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:53:30,828 - FranchiseMonitor - INFO - Retrieved historical data: 10 rows
-2024-11-15 15:53:30,851 - FranchiseMonitor - INFO - Retrieved historical data: 10 rows
-2024-11-15 15:54:30,476 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:54:30,779 - FranchiseMonitor - INFO - Retrieved historical data: 11 rows
-2024-11-15 15:54:30,782 - FranchiseMonitor - INFO - Retrieved historical data: 11 rows
-2024-11-15 15:55:30,495 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:55:30,833 - FranchiseMonitor - INFO - Retrieved historical data: 12 rows
-2024-11-15 15:55:30,834 - FranchiseMonitor - INFO - Retrieved historical data: 12 rows
-2024-11-15 15:56:30,488 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:56:30,797 - FranchiseMonitor - INFO - Retrieved historical data: 14 rows
-2024-11-15 15:56:30,797 - FranchiseMonitor - INFO - Retrieved historical data: 14 rows
-2024-11-15 15:57:30,472 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:57:30,795 - FranchiseMonitor - INFO - Retrieved historical data: 15 rows
-2024-11-15 15:57:30,797 - FranchiseMonitor - INFO - Retrieved historical data: 15 rows
-2024-11-15 15:58:30,471 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:58:30,780 - FranchiseMonitor - INFO - Retrieved historical data: 16 rows
-2024-11-15 15:58:30,795 - FranchiseMonitor - INFO - Retrieved historical data: 16 rows
-2024-11-15 15:59:30,489 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 15:59:30,847 - FranchiseMonitor - INFO - Retrieved historical data: 17 rows
-2024-11-15 15:59:30,849 - FranchiseMonitor - INFO - Retrieved historical data: 17 rows
-2024-11-15 16:00:30,473 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:00:30,783 - FranchiseMonitor - INFO - Retrieved historical data: 18 rows
-2024-11-15 16:00:30,783 - FranchiseMonitor - INFO - Retrieved historical data: 18 rows
-2024-11-15 16:01:30,477 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:01:30,798 - FranchiseMonitor - INFO - Retrieved historical data: 19 rows
-2024-11-15 16:01:30,799 - FranchiseMonitor - INFO - Retrieved historical data: 19 rows
-2024-11-15 16:01:55,051 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:01:55,060 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:01:55,082 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:01:55,089 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:01:55,089 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:01:55,095 - FranchiseMonitor - INFO - Retrieved historical data: 20 rows
-2024-11-15 16:01:55,107 - FranchiseMonitor - INFO - Retrieved historical data: 20 rows
-2024-11-15 16:02:44,263 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:02:44,560 - FranchiseMonitor - INFO - Retrieved historical data: 20 rows
-2024-11-15 16:02:44,562 - FranchiseMonitor - INFO - Retrieved historical data: 20 rows
-2024-11-15 16:03:44,230 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:03:44,542 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
-2024-11-15 16:03:44,581 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
-2024-11-15 16:04:44,289 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:04:44,603 - FranchiseMonitor - INFO - Retrieved historical data: 23 rows
-2024-11-15 16:04:44,608 - FranchiseMonitor - INFO - Retrieved historical data: 23 rows
-2024-11-15 16:05:45,484 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:05:45,800 - FranchiseMonitor - INFO - Retrieved historical data: 24 rows
-2024-11-15 16:05:45,801 - FranchiseMonitor - INFO - Retrieved historical data: 24 rows
-2024-11-15 16:07:30,484 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:07:30,792 - FranchiseMonitor - INFO - Retrieved historical data: 26 rows
-2024-11-15 16:07:30,792 - FranchiseMonitor - INFO - Retrieved historical data: 26 rows
-2024-11-15 16:08:30,475 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:08:30,792 - FranchiseMonitor - INFO - Retrieved historical data: 27 rows
-2024-11-15 16:08:30,797 - FranchiseMonitor - INFO - Retrieved historical data: 27 rows
-2024-11-15 16:09:30,487 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:09:30,819 - FranchiseMonitor - INFO - Retrieved historical data: 28 rows
-2024-11-15 16:09:30,826 - FranchiseMonitor - INFO - Retrieved historical data: 28 rows
-2024-11-15 16:10:30,496 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:10:30,783 - FranchiseMonitor - INFO - Retrieved historical data: 29 rows
-2024-11-15 16:10:30,787 - FranchiseMonitor - INFO - Retrieved historical data: 29 rows
-2024-11-15 16:10:44,550 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:10:44,559 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:10:44,560 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:10:44,562 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:10:44,583 - FranchiseMonitor - INFO - Retrieved historical data: 29 rows
-2024-11-15 16:10:44,586 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:10:44,603 - FranchiseMonitor - INFO - Retrieved historical data: 29 rows
-2024-11-15 16:11:45,793 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:11:45,793 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:11:45,799 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:11:45,805 - FranchiseMonitor - INFO - Retrieved historical data: 30 rows
-2024-11-15 16:11:45,812 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:11:45,825 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:11:45,845 - FranchiseMonitor - INFO - Retrieved historical data: 30 rows
-2024-11-15 16:12:45,798 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:12:45,807 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:12:45,810 - FranchiseMonitor - INFO - Retrieved historical data: 31 rows
-2024-11-15 16:12:45,815 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:12:45,830 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:12:45,835 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:12:45,873 - FranchiseMonitor - INFO - Retrieved historical data: 31 rows
-2024-11-15 16:13:51,515 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:14:51,485 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:15:00,071 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:15:22,089 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:15:36,176 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:16:30,323 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:17:30,270 - FranchiseMonitor - ERROR - Data file not found: C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:17:57,864 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:18:04,715 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:18:04,729 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 16:18:05,063 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 16:18:10,577 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:18:15,446 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 16:18:15,452 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 16:18:19,470 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:18:23,799 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 16:18:23,799 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
-2024-11-15 16:18:54,585 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:18:58,312 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
-2024-11-15 16:18:58,315 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
-2024-11-15 16:19:31,341 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:19:36,060 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
-2024-11-15 16:19:36,388 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:19:36,397 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:19:36,399 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:19:36,403 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
-2024-11-15 16:20:31,900 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:20:31,905 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:20:31,910 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:20:31,931 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:20:31,936 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:20:31,941 - FranchiseMonitor - INFO - Retrieved historical data: 3 rows
-2024-11-15 16:20:31,953 - FranchiseMonitor - INFO - Retrieved historical data: 3 rows
-2024-11-15 16:20:39,226 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:21:01,666 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:21:30,234 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:21:47,286 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:21:53,118 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:21:53,129 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
-2024-11-15 16:21:53,424 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
-2024-11-15 16:22:09,409 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:22:12,314 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
-2024-11-15 16:22:12,519 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
-2024-11-15 16:22:48,136 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:22:52,403 - FranchiseMonitor - INFO - Retrieved historical data: 6 rows
-2024-11-15 16:22:52,715 - FranchiseMonitor - INFO - Retrieved historical data: 6 rows
-2024-11-15 16:23:43,835 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:23:48,245 - FranchiseMonitor - INFO - Retrieved historical data: 7 rows
-2024-11-15 16:23:48,250 - FranchiseMonitor - INFO - Retrieved historical data: 7 rows
-2024-11-15 16:24:44,837 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:24:44,857 - FranchiseMonitor - INFO - Retrieved historical data: 8 rows
-2024-11-15 16:24:44,867 - FranchiseMonitor - INFO - Retrieved historical data: 8 rows
-2024-11-15 16:25:44,590 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:25:44,925 - FranchiseMonitor - INFO - Retrieved historical data: 9 rows
-2024-11-15 16:25:44,946 - FranchiseMonitor - INFO - Retrieved historical data: 9 rows
-2024-11-15 16:26:11,568 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
-2024-11-15 16:26:15,509 - FranchiseMonitor - INFO - Retrieved historical data: 10 rows
-2024-11-15 16:26:15,834 - FranchiseMonitor - INFO - Retrieved historical data: 10 rows
-2024-11-18 16:09:34,930 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-18 16:09:56,289 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-18 16:09:56,291 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-18 16:09:56,293 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-18 16:09:56,296 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-18 16:09:56,504 - FranchiseMonitor - INFO - Retrieved historical data: 0 rows
-2024-11-18 16:09:56,512 - FranchiseMonitor - INFO - Retrieved historical data: 0 rows
-2024-11-18 16:10:13,798 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-18 16:10:13,802 - FranchiseMonitor - INFO - Retrieved historical data: 6 rows
-2024-11-18 16:10:13,807 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-18 16:10:13,811 - FranchiseMonitor - INFO - Retrieved historical data: 6 rows
-2024-11-18 16:10:13,813 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-18 16:10:13,814 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-18 16:10:34,756 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-18 16:10:35,056 - FranchiseMonitor - INFO - Retrieved historical data: 6 rows
-2024-11-18 16:10:35,060 - FranchiseMonitor - INFO - Retrieved historical data: 6 rows
-2024-11-20 09:46:52,061 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:51:39,505 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:51:44,739 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
-2024-11-20 09:51:44,825 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:51:44,863 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
-2024-11-20 09:51:44,864 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:51:44,900 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:52:38,672 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:52:38,907 - FranchiseMonitor - INFO - Retrieved historical data: 23 rows
-2024-11-20 09:52:38,911 - FranchiseMonitor - INFO - Retrieved historical data: 23 rows
-2024-11-20 09:52:56,612 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:53:01,287 - FranchiseMonitor - INFO - Retrieved historical data: 24 rows
-2024-11-20 09:53:01,289 - FranchiseMonitor - INFO - Retrieved historical data: 24 rows
-2024-11-20 09:53:58,878 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:53:58,892 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:53:58,895 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:53:58,895 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:53:58,895 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:53:59,513 - FranchiseMonitor - INFO - Retrieved historical data: 25 rows
-2024-11-20 09:53:59,569 - FranchiseMonitor - INFO - Retrieved historical data: 25 rows
-2024-11-20 09:54:25,794 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:54:29,310 - FranchiseMonitor - INFO - Retrieved historical data: 25 rows
-2024-11-20 09:54:29,627 - FranchiseMonitor - INFO - Retrieved historical data: 25 rows
-2024-11-20 09:55:32,044 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:55:32,053 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:55:32,058 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:55:32,066 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:55:32,071 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:55:32,142 - FranchiseMonitor - INFO - Retrieved historical data: 26 rows
-2024-11-20 09:55:32,155 - FranchiseMonitor - INFO - Retrieved historical data: 26 rows
-2024-11-20 09:56:26,240 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:56:26,248 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:56:26,249 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:56:26,250 - FranchiseMonitor - INFO - Retrieved historical data: 27 rows
-2024-11-20 09:56:26,252 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:56:26,256 - FranchiseMonitor - INFO - Retrieved historical data: 27 rows
-2024-11-20 09:56:26,259 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:57:27,229 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:57:27,236 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:57:27,237 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:57:27,243 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:57:27,251 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:57:27,430 - FranchiseMonitor - INFO - Retrieved historical data: 29 rows
-2024-11-20 09:57:27,500 - FranchiseMonitor - INFO - Retrieved historical data: 29 rows
-2024-11-20 09:58:26,765 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:58:26,777 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:58:26,782 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:58:26,799 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 09:58:26,841 - FranchiseMonitor - INFO - Retrieved historical data: 30 rows
-2024-11-20 09:58:26,875 - FranchiseMonitor - INFO - Retrieved historical data: 30 rows
-2024-11-20 10:00:27,528 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:00:27,533 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:00:27,536 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:00:27,536 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:00:27,540 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:00:27,593 - FranchiseMonitor - INFO - Retrieved historical data: 32 rows
-2024-11-20 10:00:27,612 - FranchiseMonitor - INFO - Retrieved historical data: 32 rows
-2024-11-20 10:00:28,507 - FranchiseMonitor - INFO - Retrieved historical data: 32 rows
-2024-11-20 10:00:28,516 - FranchiseMonitor - INFO - Retrieved historical data: 32 rows
-2024-11-20 10:01:30,917 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:01:31,235 - FranchiseMonitor - INFO - Retrieved historical data: 32 rows
-2024-11-20 10:01:31,256 - FranchiseMonitor - INFO - Retrieved historical data: 32 rows
-2024-11-20 10:15:20,129 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:15:20,136 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:15:20,136 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:15:20,136 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:15:20,137 - FranchiseMonitor - INFO - Data read from C:\Users\sophia.njoroge\EGF\systems_monitor\server_data.csv
-2024-11-20 10:15:20,178 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
-2024-11-20 10:15:20,189 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
-2024-11-20 10:15:23,212 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
-2024-11-20 10:15:23,217 - FranchiseMonitor - INFO - Retrieved historical data: 22 rows
+2024-11-19 11:10:27,114 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:10:27,122 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:10:27,145 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:10:27,158 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:10:27,158 - FranchiseMonitor - INFO - Retrieved historical data: 0 rows
+2024-11-19 11:10:27,163 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:10:27,166 - FranchiseMonitor - INFO - Retrieved historical data: 0 rows
+2024-11-19 11:10:58,541 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:11:03,361 - FranchiseMonitor - INFO - Retrieved historical data: 0 rows
+2024-11-19 11:11:03,365 - FranchiseMonitor - INFO - Retrieved historical data: 0 rows
+2024-11-19 11:11:49,586 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:11:59,617 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:12:14,503 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:13:15,479 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:13:34,036 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:14:23,962 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:15:05,376 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:15:07,562 - FranchiseMonitor - INFO - Retrieved historical data: 0 rows
+2024-11-19 11:15:07,874 - FranchiseMonitor - INFO - Retrieved historical data: 0 rows
+2024-11-19 11:17:38,519 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:17:44,401 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:17:44,416 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
+2024-11-19 11:17:44,416 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:17:44,435 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
+2024-11-19 11:17:44,449 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:18:39,136 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:18:39,147 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:18:39,152 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:18:39,173 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:18:39,181 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
+2024-11-19 11:18:39,205 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:18:39,205 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
+2024-11-19 11:18:44,760 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:18:50,804 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:19:28,729 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:19:44,805 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:20:11,685 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:20:14,288 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:20:14,298 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:20:14,298 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:20:14,312 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:20:14,322 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
+2024-11-19 11:20:14,322 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:20:14,346 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
+2024-11-19 11:20:42,549 - FranchiseMonitor - ERROR - Data file not found: C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:21:45,269 - FranchiseMonitor - ERROR - Data file not found: C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:22:46,124 - FranchiseMonitor - ERROR - Data file not found: C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:23:42,524 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:23:46,132 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:23:46,140 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:23:46,149 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
+2024-11-19 11:23:46,153 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:23:46,153 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:23:46,153 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:23:46,176 - FranchiseMonitor - INFO - Retrieved historical data: 1 rows
+2024-11-19 11:24:43,173 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:24:43,173 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:24:43,173 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:24:43,174 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:24:43,174 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:24:43,208 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
+2024-11-19 11:24:43,214 - FranchiseMonitor - INFO - Retrieved historical data: 2 rows
+2024-11-19 11:24:43,424 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:25:43,276 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:25:43,287 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:25:43,292 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:25:43,292 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:25:43,299 - FranchiseMonitor - INFO - Retrieved historical data: 3 rows
+2024-11-19 11:25:43,304 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:25:43,306 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:25:43,308 - FranchiseMonitor - INFO - Retrieved historical data: 3 rows
+2024-11-19 11:26:03,054 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:26:05,230 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:26:05,235 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:26:05,242 - FranchiseMonitor - INFO - Retrieved historical data: 4 rows
+2024-11-19 11:26:05,258 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:26:05,312 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:27:03,806 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:27:04,179 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:27:04,191 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
+2024-11-19 11:27:04,199 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:27:04,202 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:27:04,210 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:27:04,231 - FranchiseMonitor - INFO - Retrieved historical data: 5 rows
+2024-11-19 11:27:04,239 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:27:32,260 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:28:04,161 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:28:06,405 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:28:06,407 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:28:06,408 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:28:06,412 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:28:06,419 - FranchiseMonitor - INFO - Retrieved historical data: 6 rows
+2024-11-19 11:28:06,422 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:28:06,423 - FranchiseMonitor - INFO - Retrieved historical data: 6 rows
+2024-11-19 11:28:22,070 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:29:22,141 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:30:22,115 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:31:22,122 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:32:23,171 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:33:23,791 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:34:23,791 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:35:23,780 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:36:23,808 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:37:24,072 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:38:23,992 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:39:23,839 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:40:23,797 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:41:23,862 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:42:24,797 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:44:23,787 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:46:24,219 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:48:23,804 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:50:23,794 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:52:24,074 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 11:58:40,946 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:02:08,879 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:04:24,838 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:05:24,662 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:05:46,556 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:05:46,605 - FranchiseMonitor - INFO - Retrieved historical data: 39 rows
+2024-11-19 12:05:46,859 - FranchiseMonitor - INFO - Retrieved historical data: 39 rows
+2024-11-19 12:05:46,886 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:05:46,886 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:05:46,886 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:06:25,115 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:06:25,157 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:06:25,158 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:06:25,167 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:06:25,170 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:06:25,173 - FranchiseMonitor - INFO - Retrieved historical data: 40 rows
+2024-11-19 12:06:25,175 - FranchiseMonitor - INFO - Retrieved historical data: 40 rows
+2024-11-19 12:06:25,418 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:07:07,366 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:08:08,154 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:09:08,142 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:09:14,085 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:10:24,171 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:11:24,180 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:12:31,960 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:22:05,369 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:22:34,759 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:23:07,802 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:23:11,149 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:23:11,166 - FranchiseMonitor - INFO - Retrieved historical data: 44 rows
+2024-11-19 12:23:11,468 - FranchiseMonitor - INFO - Retrieved historical data: 44 rows
+2024-11-19 12:23:11,505 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
+2024-11-19 12:23:11,513 - FranchiseMonitor - INFO - Data read from C:\Users\David.Peter\Downloads\Softwares & Drivers\Scripts\Monitors\franchise_monitor\server_data.csv
