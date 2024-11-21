@@ -13,7 +13,7 @@ A modern dashboard application for monitoring franchise systems metrics, service
 
 ## Prerequisites
 
-- Python 3.8 or higher
+- Python 3.13 or higher
 - pip (Python package installer)
 - Git (optional, for version control)
 
@@ -27,7 +27,7 @@ git clone <repository-url>
 
 2. Navigate to the project directory:
 ```bash
-cd franchise_monitor
+cd systems_monitor
 ```
 
 3. Create and activate a virtual environment (recommended):
@@ -43,7 +43,7 @@ source venv/bin/activate
 
 4. Install required dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r .\requirements.txt
 ```
 
 ## Configuration
@@ -93,15 +93,16 @@ python run.py
 
 ```
 franchise_monitor/
-├── app/                    # Main application directory
+├── app/                   # Main application directory
 │   ├── assets/            # CSS and static files
 │   ├── components/        # Reusable UI components
 │   ├── layouts/           # Page layouts
 │   └── callbacks/         # Dashboard interactivity
 ├── tests/                 # Test files
+├── collector.py           # System metrics collector
 ├── config.yaml            # Configuration file
 ├── requirements.txt       # Python dependencies
-└── run.py                # Application entry point
+└── run.py                 # Application entry point
 ```
 
 ## Contributing
